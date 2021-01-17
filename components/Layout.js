@@ -13,17 +13,17 @@ const Layout = ({ children, title = "HP by t.i" }) => {
                     <div className="flex items-center pl-8 h-14">
                         <div className="flex space-x-4">
                             <Link href="/">
-                                <a className="text-gray-300 hover:gb-gray-700 px-2 rounded">
+                                <a className="text-gray-300 hover:bg-gray-700 px-2 rounded">
                                     Home
                                 </a>
                             </Link>
                             <Link href="/blog-page">
-                                <a className="text-gray-300 hover:gb-gray-700 px-2 rounded">
+                                <a className="text-gray-300 hover:bg-gray-700 px-2 rounded">
                                     Blog
                                 </a>
                             </Link>
                             <Link href="/contact-page">
-                                <a className="text-gray-300 hover:gb-gray-700 px-2 rounded">
+                                <a className="text-gray-300 hover:bg-gray-700 px-2 rounded">
                                     Contact
                                 </a>
                             </Link>
